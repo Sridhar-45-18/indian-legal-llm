@@ -1,0 +1,14 @@
+{
+    "source_dataset": "tatsu-lab/alpaca",
+    "original_rows": 52002,
+    "processed_rows": 34053,
+    "train_rows": 30647,
+    "validation_rows": 3406,
+    "validation_ratio": 0.1,
+    "seed": 42,
+    "tokenizer": "Qwen/Qwen2.5-1.5B",
+    "max_sequence_tokens": 2048,
+    "minimum_output_tokens": 20,
+    "removed_short_outputs": 17921,
+    "removed_long_sequences": 0
+}

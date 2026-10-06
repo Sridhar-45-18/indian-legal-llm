@@ -65,7 +65,9 @@ processed_datasets.zip
 *.7z
 
 # Data directories (datasets can be re-downloaded/re-generated via src/data scripts)
-/data/
+/data/**
+!/data/**/
+!/data/**/preprocessing_summary.json
 *.parquet
 *.jsonl
 

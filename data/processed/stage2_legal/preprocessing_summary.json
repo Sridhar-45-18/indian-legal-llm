@@ -1,0 +1,21 @@
+{
+  "datasets": {
+    "indian_legal_v3": 192939,
+    "indian_legal_sft": 20690,
+    "bns_bnss_bsa": 6354,
+    "constitution": 4394
+  },
+  "combined_before_filtering": 224377,
+  "removed_empty_outputs": 394,
+  "removed_duplicates": 174,
+  "removed_short_outputs": 6975,
+  "removed_long_sequences": 504,
+  "final_total": 216330,
+  "train_examples": 194697,
+  "validation_examples": 21633,
+  "validation_split": 0.1,
+  "random_seed": 42,
+  "tokenizer": "Qwen/Qwen2.5-1.5B",
+  "min_output_tokens": 20,
+  "max_total_tokens": 2048
+}

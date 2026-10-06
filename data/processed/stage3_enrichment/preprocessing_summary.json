@@ -1,0 +1,16 @@
+{
+  "datasets": {
+    "kanoongpt_case_laws": 7717,
+    "lawinstruct_india": 452
+  },
+  "combined_before_filtering": 15453,
+  "removed_duplicates": 7284,
+  "final_total": 8169,
+  "train_examples": 7353,
+  "validation_examples": 816,
+  "validation_split": 0.1,
+  "random_seed": 42,
+  "tokenizer": "Qwen/Qwen2.5-1.5B",
+  "min_output_tokens": 20,
+  "max_total_tokens": 2048
+}
