@@ -1,0 +1,79 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+.venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# IDE and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.directory
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Training logs & experiment trackers
+wandb/
+runs/
+*.log
+tensorboard/
+
+# Project-specific large files and datasets
+processed_datasets.zip
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# Data directories (datasets can be re-downloaded/re-generated via src/data scripts)
+/data/
+*.parquet
+*.jsonl
+
+# Model weights and checkpoints (keep folder structure via .gitkeep)
+checkpoints/*
+!checkpoints/.gitkeep
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.onnx
